@@ -10,7 +10,7 @@
     <packaging>mule-application</packaging>
 
     <properties>
-        <mule.maven.plugin.version>3.4.1</mule.maven.plugin.version>
+        <mule.maven.plugin.version>3.9.0</mule.maven.plugin.version>
         <mule.runtime.version>4.4.0</mule.runtime.version>
     </properties>
 
