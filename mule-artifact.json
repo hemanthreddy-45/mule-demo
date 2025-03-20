@@ -1,0 +1,12 @@
+{
+    "minMuleVersion": "4.4.0",
+    "secureProperties": [],
+    "classLoaderModelLoaderDescriptor": {
+        "id": "mule",
+        "attributes": {
+            "artifactId": "basic-mule-app",
+            "groupId": "com.opsera.mulesoft",
+            "version": "1.0.0"
+        }
+    }
+}
