@@ -1,0 +1,5 @@
+<!-- A simple MuleSoft flow -->
+<flow name="basicFlow">
+    <http:listener config-ref="HTTP_Listener_config" path="/hello" doc:name="HTTP Listener"/>
+    <set-payload value="Hello, MuleSoft!" doc:name="Set Payload"/>
+</flow>
