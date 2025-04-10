@@ -13,7 +13,13 @@
         <mule.maven.plugin.version>4.2.0</mule.maven.plugin.version>
         <mule.runtime.version>4.4.0</mule.runtime.version>
     </properties>
-
+    <distributionManagement>
+    <repository>
+        <id>jfrog-artifactory</id> <!-- Match with server id in settings.xml -->
+        <name>Internal Releases</name>
+        <url>https://trial21h2sc.jfrog.io/artifactory/mule-releases-libs-release</url>
+    </repository>
+    </distributionManagement>
     <repositories>
 		<repository>
 			<id>Central</id>
